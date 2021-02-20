@@ -18,7 +18,9 @@ struct AppleMusic: View {
                     .padding()
             }
             Text("Choose a plan.")
-                .font(.system(size: 30, weight: .semibold, design: .default))
+                .font(.system(size: 30,
+                              weight: .semibold,
+                              design: .default))
             PlanSelected()
             PlanDeselected()
             PlanDeselectedExpanded()
@@ -34,6 +36,10 @@ struct AppleMusic: View {
 
 struct AppleMusic_Previews: PreviewProvider {
     static var previews: some View {
-        AppleMusic()
+        Group {
+            AppleMusic()
+            AppleMusic()
+                .preferredColorScheme(.dark)
+        }
     }
 }

@@ -12,7 +12,9 @@ struct PlanSelected: View {
         HStack {
             VStack(alignment: .leading, spacing: 6) {
                 Text("Individual")
-                    .font(.system(size: 26, weight: .bold, design: .default))
+                    .font(.system(size: 26,
+                                  weight: .bold,
+                                  design: .default))
                 Text("$9.99/month")
                     .font(.callout)
             }
@@ -21,18 +23,26 @@ struct PlanSelected: View {
                 .font(.title)
         }
         .padding(.all, 20)
-        .background(LinearGradient(gradient:
-                                    Gradient(colors: [.gradientSelectedStart, .gradientSelectedEnd]),
+        .background(LinearGradient(
+                        gradient: Gradient(
+                            colors: [.gradientSelectedStart,
+                                     .gradientSelectedEnd]),
                                    startPoint: .leading,
                                    endPoint: .trailing),
                     alignment: .center)
-        .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .mask(RoundedRectangle(cornerRadius: 16,
+                               style: .continuous))
         .foregroundColor(.white)
     }
 }
 
 struct PlanSelected_Previews: PreviewProvider {
     static var previews: some View {
-        PlanSelected()
+        Group {
+            PlanSelected()
+            PlanSelected()
+                .preferredColorScheme(.dark)
+        }
+        .padding()
     }
 }

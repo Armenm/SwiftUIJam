@@ -18,11 +18,15 @@ struct Offer: View {
             }
             .frame(width: 70, height: 70)
             .padding(5)
-            .background(RoundedRectangle(cornerRadius: 14, style: .continuous)
+            .background(RoundedRectangle(cornerRadius: 14,
+                                         style: .continuous)
                             .foregroundColor(Color(.systemBackground))
-                            .padding(1), alignment: .center)
-            .background(RoundedRectangle(cornerRadius: 14, style: .continuous)
-                            .foregroundColor(.init(.displayP3, red: 227.001445587/255, green: 224.9597087565/255, blue: 227.0003968485/255)), alignment: .center)
+                            .padding(1),
+                        alignment: .center)
+            .background(RoundedRectangle(cornerRadius: 14,
+                                         style: .continuous)
+                            .foregroundColor(.border),
+                        alignment: .center)
             VStack(alignment: .leading, spacing: 6) {
                 Text("Get Apple One")
                     .font(.callout)
@@ -41,6 +45,10 @@ struct Offer: View {
 
 struct Offer_Previews: PreviewProvider {
     static var previews: some View {
-        Offer()
+        Group {
+            Offer()
+            Offer()
+                .preferredColorScheme(.dark)
+        }
     }
 }

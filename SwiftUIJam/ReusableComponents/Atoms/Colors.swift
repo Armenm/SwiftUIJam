@@ -29,6 +29,11 @@ public extension Color {
                                                   green: 119.664638052/255,
                                                   blue: 205.0084081335/255)
     
+    static let border = Color.init(.displayP3,
+                                   red: 227.001445587/255,
+                                   green: 224.9597087565/255,
+                                   blue: 227.0003968485/255)
+    
     static let gradientDeselectedExpandedStart = Color.init(.displayP3, red: 166/255, green: 123/255,blue: 233/255)
     static let gradientDeselectedExpandedEnd = Color.init(.displayP3, red: 125/255, green: 193/255, blue: 238/255)
 }
