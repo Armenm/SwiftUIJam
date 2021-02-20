@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00E27E525E1B31C00574B59 /* PlanDeselectedExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E27E425E1B31C00574B59 /* PlanDeselectedExpanded.swift */; };
+		C00E27E825E1B34E00574B59 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E27E725E1B34E00574B59 /* Button.swift */; };
+		C00E27EB25E1B3E400574B59 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E27EA25E1B3E400574B59 /* Offer.swift */; };
+		C00E27F325E1BA7F00574B59 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E27F225E1BA7F00574B59 /* Colors.swift */; };
+		C00E27F725E1BB7C00574B59 /* ColorsPreviewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E27F625E1BB7C00574B59 /* ColorsPreviewSection.swift */; };
 		C0B5DC5B25E16961003F373C /* SwiftUIJamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5DC5A25E16961003F373C /* SwiftUIJamApp.swift */; };
-		C0B5DC5D25E16961003F373C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5DC5C25E16961003F373C /* ContentView.swift */; };
 		C0B5DC5F25E16963003F373C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B5DC5E25E16963003F373C /* Assets.xcassets */; };
 		C0B5DC6225E16963003F373C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B5DC6125E16963003F373C /* Preview Assets.xcassets */; };
+		C0B5DC6B25E1AFDB003F373C /* AppleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5DC6A25E1AFDB003F373C /* AppleMusic.swift */; };
+		C0B5DC6E25E1B234003F373C /* PlanSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5DC6D25E1B234003F373C /* PlanSelected.swift */; };
+		C0B5DC7125E1B258003F373C /* PlanDeselected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5DC7025E1B258003F373C /* PlanDeselected.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00E27E425E1B31C00574B59 /* PlanDeselectedExpanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDeselectedExpanded.swift; sourceTree = "<group>"; };
+		C00E27E725E1B34E00574B59 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		C00E27EA25E1B3E400574B59 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		C00E27F225E1BA7F00574B59 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C00E27F625E1BB7C00574B59 /* ColorsPreviewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsPreviewSection.swift; sourceTree = "<group>"; };
 		C0B5DC5725E16961003F373C /* SwiftUIJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B5DC5A25E16961003F373C /* SwiftUIJamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIJamApp.swift; sourceTree = "<group>"; };
-		C0B5DC5C25E16961003F373C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0B5DC5E25E16963003F373C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0B5DC6125E16963003F373C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0B5DC6325E16963003F373C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B5DC6A25E1AFDB003F373C /* AppleMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic.swift; sourceTree = "<group>"; };
+		C0B5DC6D25E1B234003F373C /* PlanSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanSelected.swift; sourceTree = "<group>"; };
+		C0B5DC7025E1B258003F373C /* PlanDeselected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDeselected.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C00E27ED25E1B7FF00574B59 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C0B5DC5A25E16961003F373C /* SwiftUIJamApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C00E27EE25E1B81200574B59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0B5DC6A25E1AFDB003F373C /* AppleMusic.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C00E27EF25E1B81800574B59 /* ReusableComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C00E27F125E1BA7000574B59 /* Atoms */,
+				C020C2B625E1BE7900B4141F /* Molecules */,
+				C020C2B425E1BE4400B4141F /* Organizms */,
+				C00E27F525E1BB5300574B59 /* Previews */,
+			);
+			path = ReusableComponents;
+			sourceTree = "<group>";
+		};
+		C00E27F125E1BA7000574B59 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				C00E27F225E1BA7F00574B59 /* Colors.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		C00E27F525E1BB5300574B59 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				C00E27F625E1BB7C00574B59 /* ColorsPreviewSection.swift */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
+		C020C2B425E1BE4400B4141F /* Organizms */ = {
+			isa = PBXGroup;
+			children = (
+				C0B5DC6D25E1B234003F373C /* PlanSelected.swift */,
+				C0B5DC7025E1B258003F373C /* PlanDeselected.swift */,
+				C00E27E425E1B31C00574B59 /* PlanDeselectedExpanded.swift */,
+				C00E27EA25E1B3E400574B59 /* Offer.swift */,
+			);
+			path = Organizms;
+			sourceTree = "<group>";
+		};
+		C020C2B625E1BE7900B4141F /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				C00E27E725E1B34E00574B59 /* Button.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
 		C0B5DC4E25E16961003F373C = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +128,9 @@
 		C0B5DC5925E16961003F373C /* SwiftUIJam */ = {
 			isa = PBXGroup;
 			children = (
-				C0B5DC5A25E16961003F373C /* SwiftUIJamApp.swift */,
-				C0B5DC5C25E16961003F373C /* ContentView.swift */,
+				C00E27EF25E1B81800574B59 /* ReusableComponents */,
+				C00E27EE25E1B81200574B59 /* View */,
+				C00E27ED25E1B7FF00574B59 /* Application */,
 				C0B5DC5E25E16963003F373C /* Assets.xcassets */,
 				C0B5DC6325E16963003F373C /* Info.plist */,
 				C0B5DC6025E16963003F373C /* Preview Content */,
@@ -138,8 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B5DC5D25E16961003F373C /* ContentView.swift in Sources */,
+				C00E27EB25E1B3E400574B59 /* Offer.swift in Sources */,
+				C00E27F325E1BA7F00574B59 /* Colors.swift in Sources */,
+				C00E27E825E1B34E00574B59 /* Button.swift in Sources */,
+				C0B5DC6B25E1AFDB003F373C /* AppleMusic.swift in Sources */,
+				C0B5DC6E25E1B234003F373C /* PlanSelected.swift in Sources */,
+				C0B5DC7125E1B258003F373C /* PlanDeselected.swift in Sources */,
 				C0B5DC5B25E16961003F373C /* SwiftUIJamApp.swift in Sources */,
+				C00E27F725E1BB7C00574B59 /* ColorsPreviewSection.swift in Sources */,
+				C00E27E525E1B31C00574B59 /* PlanDeselectedExpanded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
