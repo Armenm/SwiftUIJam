@@ -1,7 +1,7 @@
 
 # SwiftUIJam
 
-[![CI Status](http://img.shields.io/travis/Armenm}/SwiftUIJam.svg?style=flat)](https://travis-ci.org/Armenm/SwiftUIJam)
+[![CI Status](http://img.shields.io/travis/Armenm}/SwiftUIJam.svg?style=flat)](https://travis-ci.com/Armenm/SwiftUIJam)
 
 # Goal
 
